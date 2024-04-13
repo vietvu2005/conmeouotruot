@@ -7,6 +7,13 @@ def ehehe(password): # encode password function
         encode += encoded_char
     return encode
 
+def decode(encoded_string):
+    decode = ''
+    for char in encoded_string:
+        decoded_char = chr(ord(char) - 1)
+        decode += decoded_char
+    return decode
+
 def main():
     while True:
         print('Menu\n-------------\n1. Encode\n2. Decode\n3. Quit')
