@@ -1,3 +1,5 @@
+# Lan Anh was here
+
 def ehehe(password): # encode password function
     encode = ''
     for char in password:
